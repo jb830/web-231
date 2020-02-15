@@ -1,6 +1,6 @@
 # web-231
 Intro to JavasScript
 
-#contributors 
+# contributors 
 Professor Krasso - Bellevue University
 Joanna Brumfield - Bellevue University 
