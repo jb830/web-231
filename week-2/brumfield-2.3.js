@@ -15,6 +15,7 @@ function myName() {
   return myName.joanna;
 };
 
-console.log('Hello ' + myName() + '!');
+console.log(header.display('Joanna', 'Brumfield', 'Assignment-2.4') + '\n\n'
+            + 'Hello ' + myName() + '!');
 
 
