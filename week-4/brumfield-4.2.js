@@ -9,7 +9,7 @@ const header = require('../brumfield-header.js');
 ; initialize, and iterate through a JavaScript array
 ;===========================================
 */
-console.log(header.display('Joanna', 'Brumfield', 'Assignment 3.4')+ '\n');
+console.log(header.display('Joanna', 'Brumfield', 'Assignment 4.2')+ '\n');
 
 const fruit = ['grapes','Apples','bananas','pineapple','Kiwi'];
 
