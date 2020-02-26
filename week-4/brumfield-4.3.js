@@ -5,7 +5,9 @@ const header = require('../brumfield-header.js');
 ; Author: Professor Krasso
 ; Date:   25 February 2020
 ; Modified By: Joanna Brumfield
-; Description:
+; Description: Demonstrates how to declare,
+; initialize, and iterate through a JavaScript
+; array and select individual values within it.
 ;===========================================
 */
 
