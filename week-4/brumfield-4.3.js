@@ -8,25 +8,22 @@ const header = require('../brumfield-header.js');
 ; Description:
 ;===========================================
 */
-console.log(header.display('Joanna', 'Brumfield', 'Assignment 3.4')+ '\n');
 
-/*
-  Expected output:
+const vehicles = ['Car','Truck','Motorcycle','Airplane','Bus'];
 
-  FirstName LastName
-  Exercise 4.3
-  Today's Date
+function getValue(x,y) {
+  for (let i = 0; i < x.length; i++) {
+    if (x[i] === y) {
+      console.log('\n-- SELECTED VALUE --' + '\n' + x[i]);
+    }
+  }
+}
+console.log(header.display('Joanna', 'Brumfield', 'Assignment 4.3')+ '\n\n'
+            + '-- DISPLAYING ARRAY ITEMS --');
 
-  -- DISPLAYING ARRAY ITEMS --
-  Car
-  Truck
-  Motorcycle
-  Airplane
-  Bus
+for (let i = 0; i < vehicles.length; i++) {
+  console.log(vehicles[i]);
+}
 
-  -- SELECTED VALUE --
-  Motorcycle
-
-  -- SELECTED VALUE --
-  Bus
-*/
+getValue(vehicles,'Motorcycle');
+getValue(vehicles,'Bus');
