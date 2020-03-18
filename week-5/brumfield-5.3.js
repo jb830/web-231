@@ -1,54 +1,56 @@
+
+const header = require('../brumfield-header.js');
 /*
 ============================================
-; Title:  object-collections.js
+; Title:  Brumfield-5.3.js
 ; Author: Professor Krasso
-; Date:   25 June 2017
-; Description: Demonstrates how to create an object collection and output the contents
+; Date:   18 March 2020
+; Modified By: Joanna Brumfield
+; Description: Demonstrates how to create and iterate over an array
+; of objects using the forEach() method and output contents.
 ;===========================================
 */
-/*
-1. Create an array of five (5) composer objects with the following fields:
-      firstName
-      lastName
-      genre
-      rating (acceptable values are between 1 and 10)
-2. Using JavaScripts built-in forEach() function, iterate over
-   the composer objects and output the results.
-3. Run and test the program and make sure your output matches
-   what I have in the starter code.
-4 Stage, commit and push your work to GitHub.
-*/
+console.log(header.display('Joanna', 'Brumfield', 'Assignment 5.3')+ '\n');
 
-// collection of objects
-// const famousPoets = [
-//   {
-//     firstName: 'William',
-//     lastName: 'Wordsworth'
-//   },
-//   {
-//     firstName: 'William',
-//     lastName: 'Shakespeare'
-//   },
-//   {
-//     firstName: 'Percy',
-//     lastName: 'Shelley'
-//   },
-//   {
-//     firstName: 'Robert',
-//     lastName: 'Frost'
-//   },
-//   {
-//     firstName: 'Maya',
-//     lastName: 'Angelou'
-//   }
-// ];
+// Collection of composer objects
+const famousComposers = [
+  {
+    firstName: 'Ludwig van',
+    lastName: 'Beethoven',
+    genre: 'Classical',
+    rating: 8
+  },
+  {
+    firstName: 'Wolfgang',
+    lastName: 'Mozart',
+    genre: 'Classical',
+    rating: 10
+  },
+  {
+    firstName: 'Johann',
+    lastName: 'Bach',
+    genre: 'Classical',
+    rating: 9
+  },
+  {
+    firstName: 'Joseph',
+    lastName: 'Haydn',
+    genre: 'Classical',
+    rating: 6
+  },
+  {
+    firstName: 'Franz',
+    lastName: 'Schubert',
+    genre: 'Classical',
+    rating: 5
+  }
+];
 
-// // output
-// console.log('-- DISPLAYING  A LIST OF FAMOUS COMPOSERS --')
-// let index = 1
-// famousPoets.forEach( (poet) => {
-//   console.log(index + '. ' + poet.firstName + ' ' + poet.lastName)
-//   index++
-// })
-
+// Foreach() function used to iterate over famousComposers array of objects
+// and log specified key values
+console.log('-- COMPOSERS --')
+famousComposers.forEach( (composer) => {
+  console.log('Last Name: ' + composer.lastName + ', Genre: ' + composer.genre
+  + ', Rating: ' + composer.rating);
+});
 
