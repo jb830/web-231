@@ -18,7 +18,7 @@ let ticket = {
 };
 
 //Not sure if we were supposed to use a loop, dot notation, or just print the
-// whole object to print object so I tried all of them ..
+// whole object so I tried all of them ..
 console.log('\nDefault values:');
 console.log(ticket);
 console.log('');
