@@ -10,13 +10,6 @@ console.log(header.display('Joanna', 'Brumfield', 'Assignment 7.2')+ '\n');
 ; constructor object and logging its values.
 ;===========================================
 */
-// 1. Create an employee constructor object with four (4) parameters/fields
-//    id
-//    firstName
-//    lastName
-//    title
-// 2. Populate an array with five (5) employee objects
-// 3. Loop over the array and output the results
 
 function Employee( id, firstName, lastName, title ) {
   this.id = id;

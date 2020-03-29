@@ -41,6 +41,3 @@ for (let key in ticket) {
 console.log( '\nid: ' + ticket.id + ', name: ' + ticket.name + ', requestor: '
             + ticket.requestor );
 
-
-
-

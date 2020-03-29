@@ -1,11 +1,11 @@
 /*
 ============================================
-; Title:  brumfield-6.4.js
+; Title:  brumfield-7.3.js
 ; Author: Professor Krasso
 ; Date:   29 March 2020
 ; Modified By: Joanna Brumfield
 ; Description: Demonstrates manipulating the
-; DOM via various document methods and properties
+; DOM using various document methods and properties
 ;===========================================
 */
 
