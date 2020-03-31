@@ -9,11 +9,12 @@
 ;===========================================
 */
 
-//writes an ordered list of
+//writes an ordered list of fruit
 document.write(
   '<h1>SHOPPING LIST v.1</h1></h1><ol><li>Oranges</li><li>Apples</li><li>Pears</li><li>Limes</li><li>Lemons</li></ol>'
   );
 
+//writes a list of fruits into HTML table 
 window.onload = writeList;
 function writeList() {
   document.getElementById("list").innerHTML =
@@ -50,3 +51,5 @@ function writeList() {
     "</table>"
   ;
 };
+
+
