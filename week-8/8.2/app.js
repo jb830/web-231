@@ -38,4 +38,3 @@ out += "</ul>";
 
 document.getElementById('fruits').innerHTML = out;
 };
-

@@ -1,0 +1,79 @@
+/*
+============================================
+; Title:  style.css
+; Author: Professor Krasso
+; Date: 1 April, 2020
+; Modified by: Joanna Brumfield
+; Description: Styling for assignment 8.3
+;===========================================
+*/
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(51, 51, 51);
+}
+#topbar {
+  max-width: 100%;
+  background-color: rgb(51, 51, 51);
+}
+#topbar > h2 {
+  margin: 0;
+  padding: 1rem 0 .7rem 1.7rem;
+  color: #eee;
+  font-weight: 300;
+}
+#container {
+  padding-top: 3rem;
+  width: 60%;
+  margin: 0 auto;
+}
+section {
+  margin-top: 3rem;
+}
+article > h1 {
+  margin-bottom: 1.4rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+p {
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+#toggleBtn {
+  margin-top: 1rem;
+  width: 5rem;
+  height: 2.6rem;
+  font-size: 1rem;
+  background-color: coral;
+  color: #fff;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 3px solid #fff;
+  padding: .5rem 2rem;
+  color: rgb(112, 112, 112);
+}
+th {
+  background-color:rgb(68, 179, 194);
+  color: white;
+  text-align: left;
+  letter-spacing: 1px;
+}
+td > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(68, 179, 194);
+}
+td > a:hover {
+  color: rgba(68, 179, 194, .5);
+}
+tr:nth-child(odd) {
+  background-color:  rgb(244, 244, 244);
+}
+tr:nth-child(even) {
+  background-color:  rgb(229, 229, 229);
+}
