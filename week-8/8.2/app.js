@@ -1,3 +1,12 @@
+/*============================================
+; Title:  app.jc
+; Author: Professor Krasso
+; Date: 31 March, 2020
+; Modified by: Joanna Brumfield
+; Description: Demonstrates adding jQuery to
+; Description: Demonstrates manipulating DOM elements with JavaScript
+;===========================================*/
+//jQuery methods that show/hide the list of fruits vai navbar a elements
 $(document).ready(function() {
   $("#hide").click(function() {
     $("#fruits").hide();
@@ -25,6 +34,8 @@ type: 'Watermelons'
   type: 'Raspberries'
 },
 ];
+
+// Iterates through fruits array and appends values to an HTML unordered list
 function displayFruits() {
 let out = "<h2>Fruit List</h2><ul>";
 
