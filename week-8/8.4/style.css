@@ -2,9 +2,9 @@
 ============================================
 ; Title:  style.css
 ; Author: Professor Krasso
-; Date: 1 April, 2020
+; Date: 4 April, 2020
 ; Modified by: Joanna Brumfield
-; Description: Styling for assignment 8.3
+; Description: Styling for assignment 8.4
 ;===========================================
 */
 
@@ -24,37 +24,17 @@ body {
   color: #eee;
   font-weight: 300;
 }
-#container {
-  padding-top: 3rem;
-  width: 60%;
-  margin: 0 auto;
-}
-section {
+#emps {
   margin-top: 3rem;
-}
-article > h1 {
-  margin-bottom: 1.4rem;
-  font-weight: bold;
-  font-size: 2.2rem;
-}
-p {
-  font-weight: 300;
-  line-height: 1.5rem;
-}
-#toggleBtn {
-  margin-top: 1rem;
-  width: 5rem;
-  height: 2.6rem;
-  font-size: 1rem;
-  background-color: coral;
-  color: #fff;
+  display: flex;
+  justify-content: center;
 }
 table {
   border-collapse: collapse;
 }
 td, th {
   border: 3px solid #fff;
-  padding: .5rem 2rem;
+  padding: .8rem 3rem .7rem 1rem;;
   color: rgb(112, 112, 112);
 }
 th {
@@ -64,16 +44,17 @@ th {
   letter-spacing: 1px;
 }
 tr:nth-child(odd) {
-  background-color:  rgb(244, 244, 244);
+  background-color:  rgba(244, 244, 244, .7);
 }
 tr:nth-child(even) {
-  background-color:  rgb(229, 229, 229);
+  background-color:  rgba(229, 229, 229, .8);
 }
-td > a {
-  text-decoration: none;
+tr:hover {
+  cursor: pointer;
+  background-color:rgb(249, 248, 219);
+}
+td:first-child {
   color: rgb(68, 179, 194);
 }
-td > a:hover, td > a:active  {
-  color: rgba(68, 179, 194, .5);
-}
+
 

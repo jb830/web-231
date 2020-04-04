@@ -1,0 +1,52 @@
+<!--============================================
+; Title: major-discussion-7.1.html
+; Author: King Major
+; Date: 1 April 2020
+; Modified by: Joanna Brumfield
+; Description: Working with embedded js
+;===========================================
+-->
+<!-- King -->
+<!--
+//1. The onclick call should be inside a button tag (as insinuated that there should be a button there!)
+//2. The onload event should begin with 'window', not 'document'
+//3. The getElementById method should be used instead of getElementByTagName
+-->
+<!--============================================
+; Title:  Discussion 7.1.js
+; Author: Darius Dinkins
+; Date: 1 April 2020
+; Modified by: Joanna Brumfield
+; Description: Finding and Manipulating DOM Elements
+===========================================-->
+<!-- Darius -->
+<!--
+//1. When calling the elements id, "tess" was used rather than "test"
+//2. Missing second quotation mark around string "Hello, I'm your test page"-->
+
+<!DOCTYPE html>
+<html>
+<body>
+  <!-- Darius -->
+  <h2>Test Page</h2>
+  <p>Lets write a test page using javascript:</p>
+  <p id= test></p>
+  <!-- King -->
+  <h1 id="H1"></h1>
+  <h2 id="h2">Click The Button and This Message Should Change</h2>
+  <button onclick="myFunction()">Click Me!</button>
+  <script>
+    // Darius
+    document.getElementById("test").innerHTML = "Hello, I'm your test page";
+
+    //King
+    function welcome() {
+      document.getElementById("H1").innerHTML = "Greetings!";
+    }
+    function myFunction() {
+      document.getElementById("h2").innerHTML = "This is my most recent site.";
+    }
+    window.onload = welcome;
+  </script>
+</body>
+</html>

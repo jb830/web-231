@@ -1,34 +1,31 @@
+<!-- /*
+============================================
+; Title:  brumfield-8.4.js
+; Author: Professor Krasso
+; Date: 4 April, 2020
+; Modified by: Joanna Brumfield
+; Description: .html file for assignment 8.4
+;===========================================
+*/ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Assignment 8.4</title>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- you will need to the href to point to your root directories css file -->
-  <link rel="stylesheet" href="/path/to/your/root/css/file">
-
-  <style type="text/css">
-    #employee tbody tr:hover {
-      cursor: pointer;
-      background-color: #ffff99;
-    }
-  </style>
+  <title>Brumfield Assignment 8.4</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="emps"></div>
+  <div id="topbar">
+    <h2>My Logo</h2>
+  </div>
 
-<script type="text/javascript">
+  <div id="emps">
+    <script>displayEmployees()</script>
+  </div>
 
-  // jQuery onClick event
-  // Don't remove this, just add your code to the body of the event (curly braces)
-  $(function () {
-    $("table tr").click(function () {
-
-    })
-  });
-</script>
 </body>
 </html>

@@ -15,7 +15,7 @@ body {
   padding: 0;
 }
 #topbar {
-  padding: 1rem;
+  padding: .7rem;
   max-width:100%;
   background-color: rgb(68, 179, 194);
 }
@@ -29,7 +29,7 @@ body {
 a {
   padding: 0 1rem;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 h2 {
